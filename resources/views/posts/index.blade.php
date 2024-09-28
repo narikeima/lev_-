@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="title">トップページ</x-slot>
         
-        <h1>Blog Name</h1>
+        <h1 class='text-2xl'>Blog Name</h1>
         <div class='posts'>
             @foreach ($posts as $post)
                 <div class='post'>

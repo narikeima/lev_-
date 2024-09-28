@@ -18,6 +18,9 @@
                     <x-nav-link :href="route('index')" :active="request()->routeIs('index')">
                         {{ __('投稿一覧') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('show')" :active="request()->routeIs('show')">
+                        {{ __('損益カレンダー') }}
+                    </x-nav-link>
                 </div>
             </div>
 
